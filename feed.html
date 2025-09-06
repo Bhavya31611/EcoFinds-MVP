@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EcoFinds Feed</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>EcoFinds</h1>
+    <nav>
+        <a href="add-product.html">➕ Add Product</a>
+        <a href="cart.html">🛒 Cart</a>
+        <a href="purchases.html">📜 Purchases</a>
+        <a href="index.html">🔓 Logout</a>
+        <a href="mylistings.html">📦 My Listings</a>
+
+    </nav>
+    <input type="text" placeholder="Search products..." />
+    <select>
+      <option>All Categories</option>
+      <option>Clothing</option>
+      <option>Electronics</option>
+      <option>Books</option>
+      <option>Household items</option>
+      <option>Handmade</option>
+    </select>
+    <a href="add-product.html">➕ Add Product</a>
+  </header>
+  <main id="productFeed">
+    <!-- Product cards will be injected here -->
+        <a href="product-detail.html">
+        <div class="product-card" onclick="viewProduct('Vintage Jacket', 'Clothing', 799, 'A stylish second-hand denim jacket.', 'images/leather jacket.jpg')">
+            <h3>Vintage Jacket</h3>
+          <p>₹999</p>
+          <img src="leather jacket.webp" />
+        </div>
+        </a>
+        <a href="product-detail.html">
+           <div class="product-card" onclick="viewProduct('Eco friendly lamp', 'electronics', 899, 'A beautiful wooden lamp', 'images/lamp.jpg')">
+             <h3>Eco-Friendly Lamp</h3>
+             <p>₹899</p>
+             <img src="lamp.jpg" alt="Eco-Friendly Lamp" />
+           </div>
+        </a>
+        <a href="product-detail.html">
+           <div class="product-card" onclick="viewProduct('Wooden combs set', 'Handmade', 649, 'An eco friendly comb.', 'images/combs.webp')">
+            <h3>Wooden combs set</h3>
+             <p>₹649</p>
+             <img src="combs.webp" alt="wooden combs"/> 
+           </div>
+        </a>
+        <a href="product-detail.html">
+           <div class="product-card" onclick="viewProduct('Jute carry bags', 'Clothing', 299, 'A stylish eco-friendly bag.', 'images/jute bags.webp')">
+            <h3>Jute carry bags</h3>
+             <p>₹299</p>
+            
+
+             <img src="jute bags.webp" alt="wooden combs"/> 
+           </div>
+        </a>
+        <a href="product-detail.html">
+           <div class="product-card" onclick="viewProduct('Storage boxes', 'Household', 1099, 'A stylish Household storage boxes.', 'images/wooden box.jpg')">
+            <h3>Storage boxes</h3>
+             
+
+             <p>₹1099</p>
+            
+
+             <img src="wooden box.jpg" alt="wooden combs"/> 
+           </div>
+        </a>
+       
+</main>
+
+
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
