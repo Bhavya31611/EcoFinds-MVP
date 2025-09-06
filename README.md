@@ -38,34 +38,6 @@ EcoFinds/
 │
 └── README.md
 
-
-
-🔧 Setup Instructions
-- Clone the repo
-git clone https://github.com/Bhavya31611/EcoFinds-MVP.git
-cd EcoFinds/FrontEnd
-- Open in browser
-- Launch index.html in your preferred browser.
-- Push changes If you’ve made local edits:
-git add .
-git commit -m "Your message"
-git push origin main
-
-
-
-🐛 Troubleshooting Git Push Errors
-If you see:
-error: failed to push some refs...
-hint: Updates were rejected because the remote contains work...
-
-
-Run:
-git pull origin main --allow-unrelated-histories
-# Resolve merge conflicts if any
-git push origin main
-
-
-
 🎯 Goals for Hackathon Submission
 - Polish UI/UX for judges
 - Ensure image consistency and logo placement
